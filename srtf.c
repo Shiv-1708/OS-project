@@ -43,10 +43,8 @@ for(i=time;i<=m;i=i+b_time[j]+2)
 
 	for(count=0;count<n;count++)
 	{
-	
 		if(a_time[count]<=i)
 		{
-
 			if(b_time[count]<min)
 			{
 
