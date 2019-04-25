@@ -47,7 +47,6 @@ for(i=time;i<=m;i=i+b_time[j]+2)
 		{
 			if(b_time[count]<min)
 			{
-
 				min = b_time[count];
 				j=count;
 				flag=1;
@@ -62,7 +61,6 @@ for(i=time;i<=m;i=i+b_time[j]+2)
 		printf("\tP[%d]\t|\t%d\t|\t%d\n",j+1,turn_a_time,wait_time); 
 		k=k+wait_time;
 		x=x+turn_a_time;
-	
 		a_time[j]=m+1;
 		p[y]=j+1;
 		z[y]=i;
