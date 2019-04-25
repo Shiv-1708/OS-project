@@ -1,9 +1,8 @@
 #include<stdio.h>
 #include<stdlib.h>
-#include<conio.h> 
+#include<conio.h>
 int main() 
 { 
- 
   int count,i,j,m=0,n,y=0,time,remain=0,min,flag=0; 
   int wait_time=0,turn_a_time=0,a_time[10],b_time[10],p[10],z[10];
   float k=0,x=0; 
